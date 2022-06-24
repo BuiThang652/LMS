@@ -16,12 +16,15 @@
 }
 
 .container {
-    height: 1000px;
+
 }
 
+/* Header */
 .head {
     background: var(--bg1);
     height: 60px;
+    position: fixed;
+    width: 100%;
 }
 
 .head-all {
@@ -83,24 +86,101 @@
     border-bottom: 1px solid #ccc;
 }
 
+/* End header */
 
 
+/* Navigation */
 .nav {
+    margin-top: 60px;
     float: left;
-    background: navajowhite;
-    width: 50%;
-    height: 100px;
+    background: var(--bg2);
+    width: 20%;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+.nav li {
+    margin-left: 50px;
+    list-style-type: none;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+
+/* End navigation */
+
+
+/* Content */
 .content {
-    background: blue;
-    width: 50%;
-    height: 100px;
+    margin-top: 60px;
+    width: 80%;
     float: left;
 }
 
-.footer {
-    background: coral;
-    height: 100px;
+.sche {
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: center;
 }
+
+table, tr, td, th{
+    border: 2px solid #333;
+    border-collapse: collapse;
+}
+
+table {
+    margin: 30px auto;
+}
+
+tr {
+    height: 60px;
+}
+
+th {
+    width: 110px;
+}
+
+/* End Content */
+
+/* Footer */
+.footer {
+    background: var(--bg1);
+    height: 100px;
+    display: flex;
+    padding: 50px;
+    color: var(--bg3);
+    font-size: 16px;
+}
+
+.footer .fit-hnue {
+    width: 70%;
+    line-height: 50px;
+}
+
+.fit-hnue span a{
+    color: var(--bg2);
+}
+
+.footer .info {
+    width: 30%;
+    line-height: 30px;
+}
+
+.info ul li {
+    list-style-type: circle;
+    margin-left: 20px;
+    
+}
+/* End Footer */
+
+
 
