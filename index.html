@@ -4,27 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/DangNhap.css">
+    <link rel="stylesheet" href="./assets/css/DangNhap.css">
     <title>Đăng nhập</title>
 </head>
 <body>
     <div class="container">
-        <form action="" class="form-login"> 
+        <form class="form-login" onsubmit="login()"> 
             <h1>Đăng nhập</h1>
             
             <div class="form-text">
                 <label for="username">Tên đăng nhập</label>
-                <input type="text" name="" id="username">
+                <input type="text" name="username" id="username">
             </div>
 
             <div class="form-text">
                 <label for="password">Mật khẩu</label>
-                <input type="password" name="" id="password">
+                <input type="password" name="password" id="password">
             </div>
-            <button type="button" onclick="location.href='trangchu.html';">Đăng nhập</button>
-            <span><a href="./QuenMatKhau.html">Quên mật khẩu?</a></span>
+            <button>Đăng nhập</button>
+            <a href="./QuenMatKhau.html">Quên mật khẩu?</a>
         </form>
     </div>
+
+    <script src="./assets/js/jquery.js"></script>
 </body>
 </html>
 
