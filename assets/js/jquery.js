@@ -1,9 +1,12 @@
 // JSON
 // tài khoản 1
+username = '705102020';
+email = 'buiducthang652@gmail.com';
+password = '123';
 var user = {
-  username: "705102020",
-  fullname: "Bùi Đức Thắng",
-  password: "123",
+  username: username,
+  email: email,
+  password: password,
 };
 var json = JSON.stringify(user);
 localStorage.setItem(username, json);
@@ -16,12 +19,11 @@ function login(e) {
   var user = localStorage.getItem(username);
   var data = JSON.parse(user);
   if (!user) {
-    alert("vui long nhap username password");
-  } else if (user.username == data.username && user.password == data.password) {
-    alert("dang nhap thanh cong");
+    alert("Nhập tên đăng nhập hoặc mật khẩu!!");
+  } else if (username == data.username && password == data.password) {
     window.location.href = "trangchu.html";
   } else {
-    alert("dang nhap that bai");
+    alert("Đăng nhập thất bại!!");
   }
 }
 
