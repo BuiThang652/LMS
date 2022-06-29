@@ -125,40 +125,19 @@
     margin-top: 60px;
     width: 84%;
     float: left;
-}
-
-.sche {
-    margin-left: 100px;
-    margin-top: 20px;
-    text-align: center;
-}
-
-table, tr, td, th{
-    border: 2px solid #333;
-    border-collapse: collapse;
-}
-
-table {
-    margin: 30px auto;
-}
-
-tr {
-    height: 60px;
-}
-
-th {
-    width: 110px;
-}
-
-td a {
-    text-decoration: none;
-    color: #000000;
-}
-
-td a:hover {
-    color: var(--bg1);
     
 }
+
+.content h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    margin-left: 100px;
+}
+
 /* End Content */
 
 /* Footer */

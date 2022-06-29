@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,25 +8,26 @@
     <link rel="stylesheet" href="./assets/css/TrangChu.css">
     <title>Trang chủ</title>
 </head>
+
 <body>
     <div class="container">
         <div class="head">
             <div class="head-all">
                 <div class="head-logo">
                     <a href="trangchu.html">
-                        <img src="https://cdn.discordapp.com/emojis/714176862636474430.webp?size=96&quality=lossless" alt="">
+                        <img src="https://cdn.discordapp.com/emojis/714176862636474430.webp?size=96&quality=lossless"
+                            alt="">
                     </a>
                 </div>
                 <ul class="head-menu">
-                    <li><a href="">Khóa học</a></li>
-                    <li><a href="">Kì thi</a></li>
-                    <li id="lii">
-                        <a href="#" id="aa">Họ và tên</a>
+                    <li><a href="khoahoc.html">Khóa học</a></li>
+                    <li><a href="kythi.html">Kỳ thi</a></li>
+                    <li>
+                        <a href="#">Họ và tên</a>
                         <ul class="sub-menu">
-                            <li><a href="">Khóa học</a></li>
-                            <li><a href="">Lịch sử</a></li>
-                            <li><a href="">Đổi mật khẩu</a></li>
-                            <li><a href="">Đăng xuất</a></li>
+                            <li><a href="lichsu.html">Lịch sử</a></li>
+                            <li><a href="doimatkhau.html">Đổi mật khẩu</a></li>
+                            <li><a href="index.html">Đăng xuất</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -36,15 +38,16 @@
             <ul>
                 <li><a href="trangchu.html">Trang chủ</a></li>
                 <li>
-                    <a href="">Các khóa học</a>
+                    <a href="khoahoc.html">Các khóa học</a>
                 </li>
             </ul>
         </div>
-        
+
         <div class="content">
             <div class="sche">
                 <h1>Thời khóa biểu</h1>
-
+                <p id="today"></p>
+                <p id="rank"></p>
                 <table>
                     <tr>
                         <th>Tiết</th>
@@ -72,7 +75,9 @@
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td></td>
+                        <td rowspan="4">
+                            <a href="baitap.html">Toán 5 <br>
+                                (làm bài tập trước thứ 5 hàng tuần)</a>
                         <td></td>
                         <td></td>
                     </tr>
@@ -110,7 +115,10 @@
                         <td>6</td>
                         <td></td>
                         <td></td>
-                        <td></td>
+                        <td rowspan="4">
+                            <a href="baitap.html">Toán 5 <br>
+                                (làm bài tập trước thứ 3 hàng tuần)</a>
+                        </td>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -158,13 +166,14 @@
                     </tr>
                 </table>
             </div>
-            
+
         </div>
 
         <div class="footer clear">
             <div class="fit-hnue">
                 <p>Khoa công nghệ thông tin - Đại học sư phạm Hà Nội</p>
-                <span>Website: <a href="http://fit.hnue.edu.vn/">http://fit.hnue.edu.vn/</a> | Email:  <a href="mailto:cntt@hnue.edu.vn">cntt@hnue.edu.vn</a></span>
+                <span>Website: <a href="http://fit.hnue.edu.vn/">http://fit.hnue.edu.vn/</a> | Email: <a
+                        href="mailto:cntt@hnue.edu.vn">cntt@hnue.edu.vn</a></span>
             </div>
             <div class="info">
                 <p>Lớp 70A - CNTT</p>
@@ -178,4 +187,5 @@
 
     <script src="./assets/js/jquery.js"></script>
 </body>
+
 </html>
