@@ -66,12 +66,12 @@
     cursor: pointer;
 }
 
-.form-login span a{
+.form-login div a{
     text-decoration: none;
     color: var(--bg1);
 }
 
-.form-login span:hover a{
+.form-login div:hover a{
     text-decoration:underline;
     color: var(--bg2);
 }
